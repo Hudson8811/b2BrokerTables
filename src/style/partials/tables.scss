@@ -1,0 +1,465 @@
+body {
+  background-color: rgba(224, 222, 222, 0.575);
+}
+
+.table {
+  &-wrapper {
+    position: relative;
+    overflow-x: auto;
+    width: 100%;
+    max-width: 980px;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+  }
+}
+
+.StableCoins {
+  &-table {
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+    align-items: stretch;
+    width: 980px;
+    padding: 15px;
+    background-color: #fff;
+
+    &-desc {
+      display: flex;
+      box-sizing: border-box;
+      justify-content: flex-start;
+      align-items: center;
+      width: 980px;
+      height: 127px;
+      padding: 10px 57px;
+      margin-top: 20px;
+      font-weight: 500;
+      font-size: 21px;
+      line-height: 25px;
+      letter-spacing: -0.292236px;
+      text-transform: capitalize;
+      color: #000000;
+      background-color: #fff;
+    }
+  }
+
+  &-row {
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    width: calc(25% - 45px / 4);
+
+    &:nth-child(2) {
+      .StableCoins-content {
+        box-sizing: border-box;
+        height: calc(100% - 138px);
+        padding: 43px 18px 0;
+        background: #eff4f6;
+      }
+    }
+
+    &:nth-child(3) {
+      .StableCoins-mark--gray {
+        &:before {
+          content: '';
+          position: absolute;
+          left: 0;
+          top: 0;
+          z-index: 4;
+          display: block;
+          width: 100%;
+          height: 100%;
+          background: #eff4f6;
+        }
+
+        img,
+        p {
+          position: relative;
+          z-index: 5;
+        }
+      }
+
+      .StableCoins-mark--big {
+        position: relative;
+        box-sizing: border-box;
+        max-width: 171px;
+        margin-bottom: 0;
+
+        &:first-child {
+          margin-top: 45px;
+        }
+
+        &:nth-child(2) {
+          margin-top: 10px;
+
+          .StableCoins-mark-text {
+            margin-right: 12px;
+          }
+        }
+
+        &:nth-child(3) {
+          margin-top: 142px;
+        }
+
+        &:nth-child(4) {
+          margin-top: 324px;
+        }
+      }
+    }
+
+    &:first-child {
+      .StableCoins-firstRow-svg {
+        position: absolute;
+        left: calc(100% - 27px);
+        z-index: 2;
+        bottom: 28px;
+        display: block;
+      }
+    }
+
+    &:last-child {
+      .StableCoins-users {
+        &-block {
+          width: 73px;
+
+          &:first-child {
+            margin-top: 255px;
+          }
+
+          &:nth-child(2) {
+            margin-top: 50px;
+          }
+
+          &:nth-child(3) {
+            margin-top: 25px;
+          }
+
+          &:nth-child(4) {
+            margin-top: 25px;
+          }
+
+          &:nth-child(5) {
+            margin-top: 25px;
+          }
+        }
+
+        &-iconWrapper {
+          background: #eff4f6;
+        }
+      }
+    }
+  }
+
+  &-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 86px;
+    width: 100%;
+    margin-bottom: 15px;
+    background: #eff4f6;
+
+    &-icon {
+      display: flex;
+      box-sizing: border-box;
+      justify-content: center;
+      align-items: center;
+      height: 45px;
+      width: 45px;
+      margin-right: 20px;
+      font-weight: normal;
+      font-size: 25px;
+      line-height: 41px;
+      border-radius: 50%;
+      color: #9dafbd;
+      border: 3px solid #9dafbd;
+      flex-shrink: 0;
+    }
+
+    &-title {
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 19px;
+      letter-spacing: -0.292236px;
+      text-transform: capitalize;
+      color: #000000;
+    }
+
+    &-subtitle {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 37px;
+      width: 100%;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 23px;
+      text-align: center;
+      color: #637786;
+      background: #dce3ea;
+    }
+  }
+
+  &-sendBase {
+    border: 4px solid #03e2b2;
+    box-sizing: border-box;
+    padding: 6px;
+    border-radius: 4px;
+
+    &-item {
+      position: relative;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 20px;
+      color: #637786;
+
+      & + & {
+        margin-top: 10px;
+      }
+
+      &:first-child {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 76px;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 20px;
+        background: #ffffff;
+        text-align: center;
+        color: #637786;
+      }
+
+      &:nth-child(2) {
+        height: 87px;
+        background: rgba(220, 227, 234, 0.6);
+        mix-blend-mode: multiply;
+        opacity: 0.5;
+        border-radius: 5px;
+      }
+
+      &:last-child {
+        height: 129px;
+        background: #ffffff;
+      }
+
+      &-svg3 {
+        position: absolute;
+        top: 54px;
+        right: -60px;
+        display: block;
+      }
+
+      &-svg2 {
+        position: absolute;
+        top: 15px;
+        left: calc(100% - 15px);
+        display: block;
+      }
+
+      &-svg1 {
+        position: absolute;
+        top: 37px;
+        right: calc(100% - 15px);
+        display: block;
+      }
+    }
+  }
+
+  &-users {
+    display: block;
+    box-sizing: border-box;
+    max-width: 191px;
+    margin: 0 auto;
+    padding: 10px;
+    background: #eff4f6;
+    border-radius: 8px;
+
+    & + & {
+      margin-top: 30px;
+    }
+
+    &-arrow {
+      display: block;
+      margin: 0 auto;
+
+      & + .StableCoins-mark:not(.StableCoins-mark--big) {
+        margin-top: 0;
+        margin-bottom: 5px;
+      }
+    }
+
+    &:first-child {
+      margin-top: 110px;
+    }
+
+    &-block {
+      overflow: hidden;
+      display: block;
+      box-sizing: border-box;
+      height: 76px;
+      width: 72px;
+      margin: 0 auto;
+      background: #ffffff;
+      border-radius: 8px;
+    }
+
+    &-iconWrapper {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 54px;
+
+      &:before {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        display: block;
+        height: 40px;
+        width: 40px;
+        margin-top: -20px;
+        margin-left: -20px;
+        background: #dce3ea;
+      }
+    }
+
+    &-icon {
+      position: relative;
+      z-index: 2;
+      display: block;
+      margin-top: auto;
+      margin-bottom: 7px;
+    }
+
+    &-title {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 22px;
+      width: 100%;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 18px;
+      letter-spacing: -0.292236px;
+      color: #ffffff;
+
+      &--green {
+        background: linear-gradient(
+          90deg,
+          rgba(1, 189, 149, 0.8) 1.59%,
+          rgba(0, 232, 182, 0.8) 97.53%
+        );
+      }
+
+      &--blue {
+        background: linear-gradient(
+          90deg,
+          rgba(2, 114, 217, 0.8) 1.59%,
+          rgba(66, 163, 253, 0.8) 93.04%
+        );
+      }
+
+      &--lightBlue {
+        background: linear-gradient(
+          90deg,
+          rgba(0, 218, 232, 0.8) 1.59%,
+          rgba(0, 163, 255, 0.8) 93.04%
+        );
+      }
+
+      &--gray {
+        background: #9dafbd;
+      }
+    }
+
+    &-pay {
+      .StableCoins-users-iconWrapper:before {
+        display: none;
+      }
+
+      .StableCoins-users-title {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 14px;
+      }
+    }
+  }
+
+  &-mark {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 28px;
+    margin: 10px auto 4px;
+
+    &-icon {
+      display: block;
+      height: 16px;
+      width: 16px;
+      margin-right: 6px;
+    }
+
+    &-text {
+      display: block;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 19px;
+      color: #637786;
+
+      &--green {
+        color: #33cdad;
+      }
+    }
+
+    &--big {
+      height: 40px;
+      margin-top: 12px;
+      margin-bottom: 0;
+      background-color: #fff;
+
+      &:first-child {
+        margin-top: 0;
+        margin-bottom: 15px;
+      }
+
+      .StableCoins-mark-icon {
+        height: 25px;
+        width: 25px;
+        margin-right: 10px;
+      }
+    }
+
+    &--border {
+      box-sizing: border-box;
+      background: #ffffff;
+      border: 2px solid #eff4f6;
+    }
+
+    &--gray {
+      background: #eff4f6;
+    }
+  }
+
+  &-row3-svg {
+    position: absolute;
+    top: 12px;
+    left: 100%;
+    display: block;
+    z-index: 2;
+    margin-left: -15px;
+  }
+
+  &-row4-svg {
+    position: absolute;
+    top: -56%;
+    left: 100%;
+    display: block;
+    margin-left: -15px;
+  }
+}
