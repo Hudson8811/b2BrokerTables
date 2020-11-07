@@ -483,7 +483,49 @@
 
     &-svg {
       display: block;
-      margin: 18px auto -12px;
+      margin: 6px auto -12px;
+    }
+  }
+
+  &-servers-wlmt5 {
+    padding: 15px;
+
+    .infastructure-servers-col-wlmt5 {
+      position: relative;
+      width: 161px;
+
+      &:nth-child(1),
+      &:nth-child(4) {
+        margin-right: 51px;
+      }
+
+      &:nth-child(2) {
+        margin-right: 46px;
+      }
+
+      &:last-child {
+        margin-right: 34px;
+      }
+
+      .infastructure-servers-item {
+        margin: 0;
+      }
+      .infastructure-servers-item + .infastructure-servers-item {
+        margin-top: 11px;
+      }
+
+      &-svg {
+        position: absolute;
+        top: 19px;
+        left: 100%;
+      }
+    }
+
+    .infastructure-servers-title {
+      width: 82px;
+      align-self: center;
+      margin: 0 12px;
+      margin-left: 0;
     }
   }
 }

@@ -1,0 +1,265 @@
+.arch {
+  display: flex;
+  box-sizing: border-box;
+  justify-content: space-between;
+  align-items: stretch;
+  width: 980px;
+  padding: 15px;
+  background: #eff4f6;
+
+  &-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 86px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: -0.292236px;
+    text-transform: capitalize;
+    color: #000000;
+    background: #ffffff;
+  }
+
+  &-row {
+    width: 25%;
+
+    &:nth-child(2n) {
+      .arch-heading,
+      .arch-col {
+        background: rgba(255, 255, 255, 0.4);
+      }
+    }
+
+    &:nth-child(1) {
+      .arch-item {
+        &:nth-child(2),
+        &:nth-child(3) {
+          margin-top: 70px;
+        }
+
+        &:nth-child(4) {
+          margin-top: 216px;
+        }
+      }
+    }
+
+    &:nth-child(2) {
+      .arch-col {
+        height: calc(100% - 146px);
+      }
+
+      .arch-item + .arch-item {
+        margin-top: 70px;
+      }
+
+      .arch-item:nth-child(3) {
+        margin-bottom: 70px;
+
+        &:before {
+          border-radius: 0;
+        }
+      }
+
+      .arch-item-wrap {
+        .arch-item:nth-child(3) {
+          margin-bottom: 0;
+        }
+      }
+    }
+
+    &:nth-child(3) {
+      .arch-item + .arch-item {
+        margin-top: 70px;
+      }
+    }
+
+    &:nth-child(4) {
+      .arch-col {
+        padding-bottom: 30px;
+      }
+
+      .arch-item + .arch-item {
+        margin-top: 70px;
+      }
+    }
+  }
+
+  &-col {
+    position: relative;
+    margin-top: 14px;
+    padding-top: 46px;
+    background-color: transparent;
+  }
+
+  &-item {
+    position: relative;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    height: 76px;
+    width: 171px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #ffffff;
+    border-radius: 4px;
+
+    span {
+      position: relative;
+      display: block;
+      z-index: 3;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 19px;
+      text-align: center;
+      letter-spacing: -0.292236px;
+      color: #000000;
+    }
+
+    &:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 1;
+      display: block;
+      height: 100%;
+      width: 100%;
+      border-radius: 4px;
+    }
+
+    &:after {
+      content: '';
+      position: absolute;
+      top: 4px;
+      left: 4px;
+      z-index: 2;
+      display: block;
+      height: calc(100% - 8px);
+      width: calc(100% - 8px);
+      background: #ffffff;
+    }
+
+    &-blue {
+      &:before {
+        background: linear-gradient(to right, #0272d9, #42a3fd);
+      }
+    }
+
+    &-purple {
+      &:before {
+        background: linear-gradient(to right, #ab00e8, #2f77f9);
+      }
+    }
+
+    &-lightBlue {
+      &:before {
+        background: linear-gradient(to right, #00dae8, #00a3ff);
+      }
+    }
+
+    &-green {
+      &:before {
+        background: #03e2b2;
+      }
+    }
+
+    &-greenGrad {
+      &:before {
+        background: linear-gradient(to right, #00e8b6, #01bd95);
+      }
+    }
+
+    &-red {
+      &:before {
+        background: linear-gradient(to right, #ff669d, #bd017d);
+      }
+    }
+
+    &-gray {
+      &:before,
+      &:after {
+        display: none;
+      }
+      box-sizing: border-box;
+      border: 2px solid #eff4f6;
+    }
+
+    &-dark {
+      &:before {
+        background: #9dafbd;
+      }
+
+      &:after {
+        background: #eff4f6;
+      }
+    }
+  }
+
+  &-svg1 {
+    position: absolute;
+    z-index: 10;
+    top: 125px;
+    left: 50%;
+    display: block;
+    margin-left: -112px;
+  }
+
+  &-svg2 {
+    position: absolute;
+    z-index: 10;
+    top: -93px;
+    left: 99%;
+    display: block;
+  }
+
+  &-svg3 {
+    position: absolute;
+    z-index: 10;
+    left: 107%;
+  }
+
+  &-svg4 {
+    position: absolute;
+    z-index: 10;
+    top: 42%;
+    left: 50%;
+    display: block;
+    width: 620px;
+  }
+
+  &-svg5 {
+    position: absolute;
+    z-index: 10;
+    bottom: calc(100% + 12px);
+    display: block;
+  }
+
+  &-svg6 {
+    position: absolute;
+    z-index: 10;
+    left: calc(100% + 9px);
+    display: block;
+  }
+
+  &-svg7 {
+    display: block;
+    margin: -22px auto 18px;
+  }
+
+  &-svg8 {
+    position: absolute;
+    top: calc(100% + 12px);
+  }
+
+  &-item-wrap {
+    box-sizing: border-box;
+    width: 203px;
+    padding: 10px;
+    margin: 0 auto;
+    border: 4px solid #03e2b2;
+    border-radius: 4px;
+  }
+}

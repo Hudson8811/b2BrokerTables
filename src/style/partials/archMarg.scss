@@ -1,0 +1,240 @@
+.margArch {
+  box-sizing: border-box;
+  width: 980px;
+  padding: 14px;
+  background: #eff4f6;
+
+  &-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+
+    &-item {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 86px;
+      background: #ffffff;
+      font-weight: 500;
+      font-size: 21px;
+      line-height: 25px;
+      text-align: center;
+      text-transform: capitalize;
+      color: #000000;
+
+      &:nth-child(1) {
+        width: 361px;
+      }
+
+      &:nth-child(2) {
+        width: 334px;
+      }
+
+      &:nth-child(3) {
+        width: 236px;
+      }
+    }
+  }
+
+  &-content {
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+  }
+
+  &-firewal {
+    width: 337px;
+    margin-top: 170px;
+    margin-left: 35px;
+
+    &-title {
+      position: relative;
+      display: block;
+      width: 44px;
+      margin-left: 110px;
+      margin-bottom: 17px;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 14px;
+      letter-spacing: -0.01em;
+      color: #718697;
+
+      img {
+        position: absolute;
+        top: -45px;
+        left: 50%;
+        margin-left: -15px;
+        display: block;
+      }
+    }
+
+    .saas-avs {
+      border-color: #fff;
+    }
+
+    &-row {
+      position: relative;
+      z-index: 2;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      & + & {
+        margin-top: 161px;
+      }
+    }
+  }
+
+  &-svg1 {
+    position: absolute;
+    top: 100%;
+    left: 60px;
+    display: block;
+  }
+
+  &-svg2 {
+    position: absolute;
+    top: -100px;
+    left: 100%;
+    display: block;
+  }
+
+  .saas-monitoring {
+    margin-top: 44px;
+    margin-bottom: 0;
+
+    &:after {
+      background-color: #fff;
+    }
+
+    &-col {
+      background: #eff4f6;
+    }
+  }
+
+  &-app {
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    width: 260px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 47px;
+    background-color: #fff;
+
+    &-items {
+      position: relative;
+      display: flex;
+      box-sizing: border-box;
+      justify-content: center;
+      align-items: stretch;
+      flex-wrap: wrap;
+      padding: 10px;
+      background: #eff4f6;
+
+      .margArch-app-triangl-svg {
+        position: absolute;
+        top: 25%;
+        display: block;
+      }
+    }
+
+    &-item {
+      position: relative;
+      z-index: 2;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      width: 100px;
+      height: 76px;
+      margin-bottom: 17px;
+      background: #ffffff;
+      border-radius: 5px;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 19px;
+      color: #718697;
+
+      &:first-child {
+        margin-right: 20px;
+      }
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+
+    &-dash-svg {
+      display: block;
+      margin: 6px auto;
+    }
+
+    &-next-svg {
+      position: absolute;
+      top: 50%;
+      left: 100%;
+    }
+
+    &-nextStepArrow {
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      display: block;
+      margin-left: -8px;
+    }
+  }
+
+  &-svg3 {
+    position: absolute;
+    top: 100%;
+    margin-left: 20px;
+  }
+
+  &-data {
+    position: relative;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    width: 221px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 46px;
+    border: 1px dashed #0086e8;
+
+    &-wrap {
+      position: relative;
+      display: flex;
+      justify-content: space-between;
+      align-items: stretch;
+      flex-wrap: wrap;
+      margin-bottom: -54px;
+
+      .saas-avs {
+        position: relative;
+        margin: 0;
+        margin-bottom: 54px;
+        border-color: #fff;
+
+        span {
+          padding: 0;
+        }
+      }
+    }
+
+    &-dash-svg {
+      position: absolute;
+      left: 50%;
+      margin-left: -13px;
+
+      &:nth-child(1) {
+        top: 45px;
+      }
+
+      &:nth-child(2) {
+        bottom: 99px;
+      }
+    }
+  }
+}
