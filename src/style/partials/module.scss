@@ -170,14 +170,14 @@
       }
 
       &:before {
-        border-radius: 5px;
+        border-radius: 6px;
       }
 
       .arch-item-module-icon {
         height: calc(100% - 2px);
         width: calc(100% - 2px);
         object-fit: cover;
-        border-radius: 6px;
+        border-radius: 5px;
       }
 
       &:nth-child(2n) {
