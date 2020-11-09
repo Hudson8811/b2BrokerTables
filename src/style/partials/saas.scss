@@ -198,7 +198,7 @@
     &:nth-child(1) {
       margin-top: 207px;
 
-      .arch-item {
+      .TableArch-item {
         width: 150px;
         margin: 0;
       }
@@ -216,7 +216,7 @@
     &:nth-child(3) {
       margin-top: 100px;
 
-      .arch-item {
+      .TableArch-item {
         width: 150px;
 
         &:nth-child(1) {
@@ -240,7 +240,7 @@
       }
     }
 
-    .arch-item {
+    .TableArch-item {
       padding: 0 20px;
 
       span {
@@ -312,7 +312,7 @@
     display: block;
   }
 
-  .arch-item-bacSaas {
+  .TableArch-item-bacSaas {
     span {
       font-weight: normal;
       font-size: 14px;
