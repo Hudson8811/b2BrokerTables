@@ -156,6 +156,7 @@
         padding-right: 56px;
 
         .TableArch-item {
+          display: block;
           height: 38px;
           width: 42px;
           margin-bottom: 5px;
@@ -179,10 +180,13 @@
           }
 
           .TableArch-item-module-icon {
-            height: calc(100% - 2px);
-            width: calc(100% - 2px);
+            position: absolute;
+            top: 2px;
+            left: 2px;
+            height: calc(100% - 4px);
+            width: calc(100% - 4px);
             object-fit: cover;
-            border-radius: 5px;
+            border-radius: 6px;
           }
 
           &:nth-child(2n) {

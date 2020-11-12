@@ -523,26 +523,30 @@ body {
 
   .StableCoins-step2-svg-active {
     position: absolute;
-    top: 59%;
+    top: 60%;
     right: 104%;
   }
 }
 
-.StableCoins-sendBase-item-active {
-  position: relative;
-  z-index: 20;
-  letter-spacing: -0.5px;
+.StableCoins-sendBase {
+  .StableCoins-sendBase-item-active {
+    position: relative;
+    z-index: 20;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: -0.5px;
 
-  &:before {
-    content: '';
-    position: absolute;
-    z-index: 21;
-    display: block;
-    box-sizing: border-box;
-    height: 100%;
-    width: 100%;
-    border: 4px solid #03e2b2;
-    border-radius: 4px;
+    &:before {
+      content: '';
+      position: absolute;
+      z-index: 21;
+      display: block;
+      box-sizing: border-box;
+      height: 100%;
+      width: 100%;
+      border: 4px solid #03e2b2;
+      border-radius: 4px;
+    }
   }
 }
 
@@ -597,6 +601,7 @@ body {
 
     .StableCoins-step4-svg2-active {
       position: absolute;
+      z-index: 2;
       left: 147px;
       top: -3px;
       display: block;
@@ -739,7 +744,7 @@ body {
 
   &-title {
     display: block;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 10px;
     line-height: 19px;
     text-transform: uppercase;
