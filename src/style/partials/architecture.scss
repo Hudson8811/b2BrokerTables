@@ -211,7 +211,7 @@
     position: absolute;
     z-index: 10;
     top: -93px;
-    left: 99%;
+    left: 100%;
     display: block;
   }
 
@@ -224,7 +224,7 @@
   &-svg4 {
     position: absolute;
     z-index: 10;
-    top: 42%;
+    top: 41%;
     left: 50%;
     display: block;
     width: 620px;
@@ -254,7 +254,16 @@
     top: calc(100% + 12px);
   }
 
+  &-svg9 {
+    position: absolute;
+    right: 101%;
+    top: 39%;
+    z-index: 0;
+  }
+
   &-item-wrap {
+    position: relative;
+    z-index: 2;
     box-sizing: border-box;
     width: 203px;
     padding: 10px;

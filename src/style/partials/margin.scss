@@ -1,4 +1,6 @@
 .infastructure-margin {
+  background: linear-gradient(180deg, #2e3740 0%, rgba(46, 55, 64, 0.31) 100%);
+
   .infastructure-topCol {
     width: 100%;
   }
@@ -28,6 +30,7 @@
     box-sizing: border-box;
     width: 310px;
     padding-left: 93px;
+    margin-left: 8px;
 
     svg {
       position: absolute;
@@ -121,11 +124,15 @@
 
   &-api3 {
     margin-top: 22px;
+
+    .infastructure-topCol.infastructure-margin-col {
+      padding-top: 8px;
+    }
   }
 
   &-swarmSvg2 {
     display: block;
-    margin: 0 auto;
+    margin: 0 auto 8px;
   }
 
   &-api4 {

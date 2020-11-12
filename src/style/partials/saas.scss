@@ -107,6 +107,11 @@
         .saas-heading-item {
           width: 150px;
           margin: 0 auto;
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 19px;
+          letter-spacing: -0.292236px;
+          color: #000000;
         }
       }
 
@@ -129,7 +134,7 @@
     justify-content: center;
     align-items: center;
     width: 150px;
-    margin: 13px auto 16px;
+    margin: 9px auto;
 
     span {
       position: absolute;
@@ -196,7 +201,7 @@
     align-items: flex-start;
 
     &:nth-child(1) {
-      margin-top: 207px;
+      margin-top: 195px;
 
       .TableArch-item {
         width: 150px;
@@ -506,14 +511,14 @@
     box-sizing: border-box;
     justify-content: space-between;
     align-items: stretch;
-    padding: 37px 101px 18px;
+    padding: 27px 101px;
     background-color: #fff;
     border-top: 7px solid #dbe2e7;
 
     &-item {
       display: flex;
       justify-content: flex-start;
-      align-items: flex-start;
+      align-items: stretch;
 
       &:nth-child(1) {
         width: 323px;
@@ -526,6 +531,8 @@
 
     &-icon {
       display: block;
+      width: 21px;
+      height: 21px;
       margin-right: 10px;
       flex-shrink: 0;
     }

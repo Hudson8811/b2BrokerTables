@@ -445,7 +445,7 @@
         justify-content: flex-start;
         align-items: center;
         letter-spacing: -0.292236px;
-        color: #b0c4d4;
+        color: rgba(255, 255, 255, 0.6);
 
         &:before {
           content: '';
@@ -454,7 +454,7 @@
           width: 6px;
           margin-right: 9px;
           border-radius: 50%;
-          background: #97a8b4;
+          background: rgba(255, 255, 255, 0.6);
           flex-shrink: 0;
         }
       }
