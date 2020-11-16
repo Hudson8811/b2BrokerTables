@@ -141,6 +141,96 @@
         );
       }
     }
+
+    &--backOrange {
+      .several-item-bot {
+        background: linear-gradient(
+          90deg,
+          rgba(253, 66, 100, 0.8) 1.59%,
+          rgba(238, 115, 1, 0.8) 93.04%
+        );
+      }
+    }
+
+    &--purp {
+      .several-item-bot {
+        background: linear-gradient(
+          90deg,
+          rgba(58, 44, 113, 0.8) 1.59%,
+          rgba(169, 45, 142, 0.8) 93.04%
+        );
+      }
+    }
+
+    &--backPurp {
+      .several-item-bot {
+        background: linear-gradient(
+          90deg,
+          rgba(169, 45, 142, 0.8) 1.59%,
+          rgba(58, 44, 113, 0.8) 93.04%
+        );
+      }
+    }
+
+    &--pink {
+      .several-item-bot {
+        background: linear-gradient(
+          90deg,
+          rgba(241, 7, 137, 0.8) 1.59%,
+          rgba(253, 97, 107, 0.8) 97.53%
+        );
+      }
+    }
+
+    &--fblue {
+      .several-item-bot {
+        background: linear-gradient(
+          90deg,
+          rgba(199, 141, 255, 0.8) 1.59%,
+          rgba(0, 163, 255, 0.8) 93.04%
+        );
+      }
+    }
+
+    &--newGreen {
+      .several-item-bot {
+        background: linear-gradient(
+          90deg,
+          rgba(0, 194, 183, 0.8) 1.59%,
+          rgba(0, 214, 209, 0.8) 93.04%
+        );
+      }
+    }
+
+    &--pinkPurp {
+      .several-item-bot {
+        background: linear-gradient(
+          89.99deg,
+          rgba(251, 86, 161, 0.8) -6.6%,
+          rgba(131, 15, 252, 0.8) 92.64%
+        );
+      }
+    }
+
+    &--yellow {
+      .several-item-bot {
+        background: linear-gradient(
+          90deg,
+          rgba(255, 139, 51, 0.8) 1.59%,
+          rgba(255, 219, 104, 0.8) 97.53%
+        );
+      }
+    }
+
+    &--greenY {
+      .several-item-bot {
+        background: linear-gradient(
+          90deg,
+          rgba(23, 180, 186, 0.8) 1.59%,
+          rgba(175, 234, 133, 0.8) 97.53%
+        );
+      }
+    }
   }
 
   &-value {
@@ -315,5 +405,15 @@
     position: absolute;
     top: 44px;
     right: calc(100% - 47px);
+  }
+}
+
+.several-afacas-wrapp {
+  max-width: 450px;
+
+  .several-afacas {
+    width: 450px;
+    padding-left: 122px;
+    padding-right: 63px;
   }
 }

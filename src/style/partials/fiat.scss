@@ -1,0 +1,23 @@
+.several {
+  &-afacas-pamm {
+    width: 450px;
+
+    .several-afacas {
+      width: 450px;
+      padding-right: 63px;
+      padding-left: 122px;
+      background: #eff4f6;
+    }
+
+    .several-item {
+      background-color: #fff;
+
+      .several-item-title {
+        background-color: #fff;
+      }
+    }
+    .several-value {
+      background: #eff4f6;
+    }
+  }
+}
