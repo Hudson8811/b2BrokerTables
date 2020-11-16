@@ -85,4 +85,132 @@
       flex-shrink: 0;
     }
   }
+
+  &-table {
+    margin-top: 37px;
+
+    &-row {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+
+      & + & {
+        margin-top: 11px;
+      }
+
+      &:nth-child(2) {
+        margin-top: 18px;
+      }
+    }
+  }
+
+  &-heading-col {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #9dafbd;
+
+    & + & {
+      margin-left: 29px;
+    }
+
+    &:last-child {
+      margin-left: 41px;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 20px;
+      color: #383838;
+    }
+  }
+
+  &-col {
+    & + & {
+      margin-left: 35px;
+    }
+
+    &:last-child {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+    }
+
+    &-icon {
+      height: 36px;
+      width: 36px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-right: 3px;
+      background-color: #fff;
+      border-radius: 2px;
+    }
+
+    &-text {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      box-sizing: border-box;
+      width: 225px;
+      height: 36px;
+      overflow: hidden;
+      background: #ffffff;
+      border-radius: 2px;
+      flex-shrink: 0;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 20px;
+      color: #383838;
+      padding: 0 15px;
+    }
+  }
+
+  &-grayBlock {
+    height: 15px;
+    width: 47px;
+    background: rgba(157, 175, 189, 0.2);
+    border-radius: 3px;
+  }
+
+  &-user-name {
+    display: block;
+    margin: 14px 0 0;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 20px;
+    color: #9dafbd;
+  }
+
+  &-table-2 {
+    margin-top: 22px;
+
+    .allocation-heading-col {
+      & + & {
+        margin-left: 30px;
+      }
+      &:last-child {
+        margin-left: 42px;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        color: #9dafbd;
+      }
+
+      &:nth-child(2) {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        color: #383838;
+      }
+    }
+
+    .allocation-col + .allocation-col {
+      margin-left: 34px;
+    }
+
+    .allocation-col:last-child {
+      .allocation-grayBlock {
+        width: 150px;
+      }
+    }
+  }
 }
