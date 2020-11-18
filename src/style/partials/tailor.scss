@@ -171,9 +171,10 @@
 
   &-svg2 {
     position: absolute;
-    top: 10px;
-    left: 100%;
+    top: 7px;
+    left: calc(100% - 11px);
     display: block;
+    width: 140px;
   }
 
   &-user-item {
