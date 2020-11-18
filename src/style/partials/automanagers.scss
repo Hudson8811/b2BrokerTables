@@ -86,7 +86,7 @@
     align-items: center;
     height: 86px;
     width: calc(50% - 5px);
-    font-weight: 500;
+    font-weight: 400;
     font-size: 21px;
     line-height: 25px;
     letter-spacing: -0.292236px;
@@ -178,6 +178,17 @@
     position: absolute;
     top: 0;
     left: calc(100% + 24px);
+
+    &-text {
+      position: absolute;
+      left: calc(100% + 40px);
+      display: block;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 20px;
+      letter-spacing: 0;
+      color: #ee0064;
+    }
   }
 
   &-svg3 {
