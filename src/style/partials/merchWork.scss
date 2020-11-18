@@ -1,0 +1,255 @@
+.mWork {
+  width: 980px;
+  background: #ffffff;
+  box-sizing: border-box;
+  padding: 15px;
+
+  &-wrap {
+    width: 100%;
+    max-width: 980px;
+    overflow-x: auto;
+    margin: 0 auto;
+  }
+
+  &-h-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .enWork-h-col {
+      .enWork-h-icon {
+        margin-right: 10px;
+        width: 35px;
+        height: 35px;
+        font-weight: 500;
+        font-size: 19px;
+        line-height: 29px;
+        border: 2px solid #9dafbd;
+      }
+      .enWork-h-title {
+        font-weight: 500;
+        font-size: 21px;
+        line-height: 25px;
+        text-transform: capitalize;
+        color: #000000;
+      }
+
+      &:nth-child(1),
+      &:nth-child(3) {
+        width: 172px;
+      }
+
+      &:nth-child(2) {
+        width: 577px;
+      }
+    }
+  }
+
+  &-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    margin-top: 16px;
+  }
+
+  &-col {
+    &:nth-child(1),
+    &:nth-child(3) {
+      width: 172px;
+      box-sizing: border-box;
+      padding-bottom: 18px;
+    }
+
+    &:nth-child(2) {
+      width: 577px;
+      display: flex;
+      justify-content: space-between;
+      align-items: stretch;
+      box-sizing: border-box;
+      background: #eff4f6;
+      padding: 126px 18px 18px 18px;
+
+      .mWork-subcol {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &:nth-child(1),
+        &:nth-child(3) {
+          .TableArch-item {
+            width: 150px;
+            height: 168px;
+            margin-bottom: 238px;
+            span {
+              line-height: 23px;
+            }
+
+            svg {
+              position: relative;
+              z-index: 5;
+              display: block;
+              margin-top: 13px;
+            }
+          }
+        }
+
+        &:nth-child(2) {
+          flex-direction: column;
+          margin-left: -25px;
+
+          .enWork-item-price {
+            position: relative;
+            z-index: 2;
+            background-color: #fff;
+            margin-left: auto;
+          }
+
+          .mWork-text {
+            margin-left: auto;
+          }
+
+          .mWork-col-content {
+            margin-top: 0;
+
+            &:nth-child(1) {
+              margin-bottom: 52px;
+            }
+
+            &:nth-child(2) {
+              margin-bottom: auto;
+            }
+          }
+        }
+      }
+    }
+
+    .TableArch-item {
+      position: relative;
+      height: 100px;
+      width: 100%;
+      flex-direction: column;
+    }
+
+    span.mWork-col-desib {
+      display: block;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 25px;
+      text-align: center;
+      color: #637786;
+    }
+
+    &-content {
+      width: 127px;
+      margin-left: 25px;
+      margin-top: 26px;
+    }
+
+    &-desc {
+      height: 37px;
+      width: 100%;
+      display: flex;
+      margin-bottom: 12px;
+      justify-content: center;
+      align-items: center;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 23px;
+      color: #637786;
+      background: #dce3ea;
+    }
+
+    .enWork-item-price {
+      position: relative;
+      width: 108px;
+
+      .mWork-svg3,
+      .mWork-svg4 {
+        height: auto;
+        width: auto;
+      }
+    }
+
+    .enWork-item-price + .enWork-item-price {
+      margin-top: 5px;
+    }
+
+    &:nth-child(1) {
+      .enWork-item-price + .mWork-col-desc {
+        margin-top: 30px;
+      }
+    }
+
+    &:nth-child(3) {
+      .mWork-col-content {
+        margin-right: 25px;
+
+        .enWork-item-price,
+        .mWork-text {
+          margin-left: auto;
+        }
+
+        &:nth-child(2) {
+          margin-bottom: 115px;
+        }
+
+        &:nth-child(4) {
+          .mWork-text {
+            margin-bottom: 35px;
+          }
+        }
+      }
+    }
+  }
+
+  &-text {
+    display: block;
+    width: 106px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 35px;
+    text-align: center;
+    color: #637786;
+  }
+
+  &-svg1 {
+    position: absolute;
+    top: 50%;
+    right: calc(100% + 18px);
+    display: block;
+    margin-top: -321px;
+  }
+
+  &-svg2 {
+    position: absolute;
+    display: block;
+    left: 100%;
+    top: 50%;
+    margin-top: -284px;
+  }
+
+  &-svg3 {
+    position: absolute;
+    display: block;
+    right: 90%;
+  }
+
+  &-svg4 {
+    position: absolute;
+    display: block;
+    right: 90%;
+    top: 50%;
+    margin-top: -90px;
+  }
+
+  &-svg5 {
+    left: 99%;
+  }
+
+  &-svg6 {
+    position: absolute;
+    top: 50%;
+    right: calc(100% + 7px);
+    margin-top: -277px;
+  }
+}
