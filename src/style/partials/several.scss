@@ -53,7 +53,7 @@
       font-weight: 500;
       font-size: 11px;
       line-height: 13px;
-      letter-spacing: -0.292236px;
+      letter-spacing: 0;
       color: #ffffff;
       border-radius: 0 0 4px 4px;
     }
@@ -68,7 +68,7 @@
       font-weight: 500;
       font-size: 16px;
       line-height: 19px;
-      letter-spacing: -0.292236px;
+      letter-spacing: 0;
       color: #000000;
     }
 
@@ -313,7 +313,7 @@
     position: relative;
     height: 90px;
     width: 218px;
-    margin-right: 77px;
+    margin-right: 57px;
 
     &--blue {
       .several-maamos-desc {
@@ -342,10 +342,10 @@
     height: 30px;
     width: 100%;
     padding: 0 17px;
-    font-weight: 500;
-    font-size: 11px;
-    line-height: 13px;
-    letter-spacing: -0.292236px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0;
     color: #ffffff;
     border-radius: 0 0 4px 4px;
   }
@@ -372,9 +372,9 @@
     display: block;
     font-style: normal;
     font-weight: 500;
-    font-size: 11px;
-    line-height: 13px;
-    letter-spacing: -0.292236px;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0;
     color: #383838;
   }
 }
