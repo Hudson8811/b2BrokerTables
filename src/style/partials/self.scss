@@ -1,0 +1,80 @@
+.posSelf {
+  width: 980px;
+  box-sizing: border-box;
+  padding: 25px 25px 15px;
+  background: #eff4f6;
+
+  &-wrap {
+    width: 100%;
+    max-width: 980px;
+    margin: 0 auto;
+    overflow-x: auto;
+  }
+
+  &-heading {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 14px 28px;
+    margin-bottom: 55px;
+    background-color: #fff;
+
+    &-item {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+
+      & + & {
+        margin-left: 40px;
+      }
+
+      &:nth-child(1) {
+        .posSelf-heading-icon {
+          background: #9dafbd;
+        }
+      }
+
+      &:nth-child(2) {
+        .posSelf-heading-icon {
+          background: linear-gradient(360deg, #3b8bd4 0%, #06bd98 100%);
+        }
+      }
+    }
+
+    &-icon {
+      width: 19px;
+      height: 19px;
+      margin-right: 15px;
+    }
+
+    &-text {
+      display: block;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 23px;
+      color: #383838;
+    }
+  }
+
+  &-content {
+    position: relative;
+    display: block;
+
+    span {
+      top: 18px;
+      right: 46px;
+      position: absolute;
+      display: block;
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 23px;
+      color: #1f2832;
+    }
+
+    &-img {
+      display: block;
+      width: 830px;
+    }
+  }
+}
