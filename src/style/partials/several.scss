@@ -320,6 +320,36 @@
         background: #4095e3;
       }
     }
+
+    &--blueGr {
+      .several-maamos-desc {
+        background: linear-gradient(
+          90deg,
+          rgba(66, 163, 253, 0.8) 1.59%,
+          rgba(2, 114, 217, 0.8) 93.04%
+        );
+      }
+    }
+
+    &--orange {
+      .several-maamos-desc {
+        background: linear-gradient(
+          90deg,
+          rgba(238, 115, 1, 0.8) 1.59%,
+          rgba(253, 66, 100, 0.8) 93.04%
+        );
+      }
+    }
+
+    &--green {
+      .several-maamos-desc {
+        background: linear-gradient(
+          90deg,
+          rgba(1, 189, 149, 0.8) 1.59%,
+          rgba(0, 232, 182, 0.8) 97.53%
+        );
+      }
+    }
   }
 
   &-svg {
