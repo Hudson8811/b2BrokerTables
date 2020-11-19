@@ -127,15 +127,7 @@
 
     &:nth-child(9) {
       justify-content: space-between;
-      margin: 57px 0 104px;
-    }
-
-    &:last-child {
-      height: 88px;
-      padding: 10px 53px;
-      box-sizing: border-box;
-      background: #eff4f6;
-      border-radius: 5px;
+      margin: 57px 0 0;
     }
   }
 
@@ -170,6 +162,10 @@
 
     &-grayBlue {
       background: #3a6785;
+    }
+
+    &-orange {
+      background: #ff6645;
     }
 
     & + & {
@@ -230,5 +226,16 @@
       margin-left: -1px;
       margin-bottom: 18px;
     }
+  }
+}
+
+.steps-wrap-turnkey {
+  .steps-row:nth-child(3) .steps-item:nth-child(1) {
+    width: 381px;
+    margin-right: 182px;
+  }
+
+  .steps-row:nth-child(8) .steps-item:nth-child(1) {
+    width: 190px;
   }
 }
