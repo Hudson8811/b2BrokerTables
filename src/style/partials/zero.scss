@@ -1,0 +1,200 @@
+.zero {
+  width: 980px;
+  box-sizing: border-box;
+  padding: 20px 16px;
+  background: #ffffff;
+
+  &-wrap {
+    width: 100%;
+    max-width: 980px;
+    margin: 0 auto;
+  }
+
+  &-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 382px;
+    margin: 406px auto 0;
+
+    &-icon {
+      width: 50px;
+    }
+
+    &-img {
+      width: 156px;
+    }
+  }
+
+  &-col {
+    width: 210px;
+
+    .TableArch-item {
+      height: 100px;
+      width: 100%;
+      margin-bottom: 26px;
+    }
+
+    &:nth-child(1) {
+      .zero-content {
+        margin-left: 19px;
+
+        .mWork-col-desc:nth-child(17) {
+          margin-top: 30px;
+        }
+      }
+    }
+
+    &:nth-child(2) {
+      box-sizing: border-box;
+      width: 496px;
+      padding: 9px;
+      background: #eff4f6;
+
+      .TableArch-item {
+        height: 86px;
+        border-radius: 0;
+
+        span {
+          font-weight: 500;
+          font-size: 21px;
+          line-height: 25px;
+          text-transform: capitalize;
+          color: #000000;
+        }
+      }
+    }
+
+    &:nth-child(3) {
+      .zero-content {
+        margin-top: 319px;
+        margin-right: 19px;
+        margin-left: auto;
+      }
+    }
+  }
+
+  &-content {
+    width: 150px;
+
+    .enWork-item-price {
+      position: relative;
+      width: 100%;
+
+      span {
+        width: 40px;
+      }
+    }
+
+    .enWork-item-price + .enWork-item-price {
+      margin-top: 5px;
+    }
+  }
+
+  &-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+  }
+
+  .zero-svg1 {
+    position: absolute;
+    height: auto;
+    width: auto;
+    top: 21px;
+    left: 100%;
+  }
+  .zero-svg2 {
+    position: absolute;
+    height: auto;
+    width: auto;
+    top: 20px;
+    left: 100%;
+  }
+
+  .zero-svg3 {
+    position: absolute;
+    height: auto;
+    width: auto;
+    top: 21px;
+    right: 100%;
+    margin-right: 0;
+  }
+
+  .zero-svg4 {
+    position: absolute;
+    height: auto;
+    width: auto;
+    top: 20px;
+    right: 100%;
+    margin-right: 0;
+  }
+
+  .zero-svg5 {
+    position: absolute;
+    height: auto;
+    width: auto;
+    top: auto;
+    right: 100%;
+    margin-right: 0;
+  }
+
+  .zero-svg6 {
+    position: absolute;
+    height: auto;
+    width: auto;
+    top: -76px;
+    right: 100%;
+    margin-right: 0;
+  }
+
+  .zero-svg7 {
+    position: absolute;
+    height: auto;
+    width: auto;
+    top: 21px;
+    left: 100%;
+  }
+
+  .zero-svg8 {
+    position: absolute;
+    height: auto;
+    width: auto;
+    top: -77px;
+    right: 100%;
+    margin-right: 0;
+  }
+
+  .zero-svg9 {
+    position: absolute;
+    height: auto;
+    width: auto;
+    top: -26px;
+    right: 100%;
+    margin-right: 0;
+  }
+
+  .zero-svg10 {
+    position: absolute;
+    height: auto;
+    width: auto;
+    bottom: 51%;
+    left: 100%;
+  }
+
+  .zero-svg11 {
+    position: absolute;
+    height: auto;
+    width: auto;
+    bottom: 47%;
+    left: 100%;
+  }
+
+  .zero-svg12 {
+    position: absolute;
+    height: auto;
+    width: auto;
+    bottom: 47%;
+    left: 100%;
+  }
+}
