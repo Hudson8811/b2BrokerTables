@@ -1,0 +1,231 @@
+.structurewl {
+  width: 980px;
+  box-sizing: border-box;
+  padding: 15px;
+  background: #eff4f6;
+
+  &-line {
+    position: absolute;
+    top: 41px;
+    left: calc(100% - 109px);
+  }
+
+  &-wrap {
+    width: 100%;
+    max-width: 980px;
+    margin: 0 auto;
+    overflow-x: auto;
+    padding-bottom: 20px;
+  }
+
+  &-heading {
+    padding: 30px 42px;
+    background-color: #fff;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    text-transform: capitalize;
+    color: #000000;
+    margin-bottom: 10px;
+  }
+
+  &-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    box-sizing: border-box;
+    padding: 34px 63px 34px 62px;
+
+    &:nth-child(3) {
+      background-color: #fff;
+
+      .connectiv-item {
+        background: #eff4f6;
+      }
+
+      .structurewl-col {
+        .infastructure-botCol-item {
+          background: #eff4f6;
+        }
+
+        .infastructure-botCol-title {
+          background: #eff4f6;
+        }
+
+        &:nth-child(1) {
+          .infastructure-botCol-item {
+            margin-top: 96px;
+          }
+        }
+
+        &:nth-child(3) {
+          .infastructure-botCol-item {
+            margin: 58px auto;
+          }
+        }
+      }
+      .structurewl-svg1 {
+        top: -85px;
+      }
+    }
+
+    &:nth-child(4) {
+      .structurewl-svg1 {
+        top: -64px;
+      }
+      .structurewl-col {
+        &:nth-child(1) {
+          .infastructure-botCol-item {
+            margin-top: 80px;
+          }
+        }
+        &:nth-child(3) {
+          .infastructure-botCol-item {
+            margin: 24px auto;
+          }
+        }
+      }
+    }
+  }
+
+  &-col {
+    width: 224px;
+
+    &:nth-child(1) {
+      .infastructure-botCol-item {
+        margin-top: 115px;
+      }
+    }
+
+    &:nth-child(2) {
+      width: 210px;
+    }
+
+    &:nth-child(3) {
+      .connectiv-item {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 19px;
+        color: #000000;
+        letter-spacing: -0.01em;
+        padding-left: 0;
+        padding-right: 0;
+
+        &:nth-child(1) {
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 19px;
+          color: #000000;
+        }
+      }
+
+      .infastructure-botCol-item {
+        margin: 83px auto;
+      }
+    }
+
+    .infastructure-botCol-item {
+      position: relative;
+      background: #fff;
+
+      .infastructure-botCol-img {
+        margin-right: 0;
+      }
+
+      .infastructure-botCol-title {
+        position: relative;
+        z-index: 2;
+        color: #000;
+        text-align: center;
+        width: 165px;
+        margin-left: 0;
+        background: #fff;
+        line-height: 57px;
+      }
+    }
+  }
+
+  .connectiv-item {
+    position: relative;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 10px;
+    height: auto;
+    min-height: 40px;
+  }
+
+  .connectiv-item + .connectiv-item {
+    margin-top: 10px;
+  }
+
+  &-svg1 {
+    position: absolute;
+    top: -100px;
+    left: calc(100% + 54px);
+  }
+
+  &-svg2 {
+    position: absolute;
+    left: 100%;
+  }
+
+  &-svg3 {
+    position: absolute;
+    top: 20px;
+    left: 100%;
+  }
+
+  &-bot-row {
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+  }
+
+  &-bot-col {
+    width: 184px;
+
+    .TableArch-item {
+      width: 100%;
+
+      span {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &:after {
+          content: '';
+          display: block;
+          width: 12px;
+          height: 20px;
+          background: center / auto url(../img/structure-arrow.svg) no-repeat;
+          margin-left: 20px;
+        }
+      }
+    }
+  }
+
+  &-bot-content {
+    box-sizing: border-box;
+    background: #eff4f6;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 0px 0px 8px 8px;
+    padding-top: 30px;
+    height: 348px;
+  }
+
+  &-bot-text {
+    display: block;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #718697;
+    padding: 6px;
+    box-sizing: border-box;
+
+    & + & {
+      margin-top: 6px;
+    }
+  }
+}
