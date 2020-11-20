@@ -74,7 +74,14 @@
 
     &-img {
       display: block;
-      width: 830px;
+      width: 790px;
+      margin-left: 40px;
+    }
+
+    &2 {
+      .posSelf-content-img {
+        width: 837px;
+      }
     }
   }
 }
