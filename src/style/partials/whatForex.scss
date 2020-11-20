@@ -142,3 +142,38 @@
     }
   }
 }
+
+.wCryptocurency-wrap {
+  max-width: 980px;
+
+  .wForex {
+    width: 980px;
+
+    .wForex-col {
+      width: 230px;
+
+      .wForex-block {
+        width: 175px;
+        margin-right: 13px;
+
+        .wForex-block-svg {
+          right: 97%;
+        }
+
+        &:before {
+          content: '';
+          position: absolute;
+          z-index: 2;
+          left: 0;
+          top: 0;
+          height: 100%;
+          width: 20px;
+          background: #ebf0f2;
+        }
+      }
+    }
+  }
+  .wForex-item-desc {
+    font-size: 10px;
+  }
+}
