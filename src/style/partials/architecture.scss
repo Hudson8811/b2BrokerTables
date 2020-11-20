@@ -178,6 +178,12 @@
       }
     }
 
+    &-purp {
+      &:before {
+        background: linear-gradient(to right, #ab00e8, #2f77f9);
+      }
+    }
+
     &-gray {
       &:before,
       &:after {
