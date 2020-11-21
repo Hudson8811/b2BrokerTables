@@ -1,0 +1,57 @@
+.accountswl {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  width: 580px;
+
+  &-wrap {
+    width: 100%;
+    max-width: 580px;
+    margin: 0 auto;
+    overflow-x: auto;
+  }
+
+  &-col {
+    width: 260px;
+
+    &:nth-child(2) {
+      opacity: 0.2;
+
+      .TableArch-item {
+        flex-direction: column;
+
+        span:nth-child(2) {
+          font-weight: normal;
+          font-size: 14px;
+          line-height: 23px;
+          text-align: center;
+          color: #637786;
+        }
+      }
+    }
+  }
+
+  .TableArch-item {
+    width: 100%;
+    height: 76px;
+    margin-bottom: 35px;
+  }
+
+  .enWork-item-price {
+    width: 100%;
+  }
+
+  .enWork-item-price + .enWork-item-price {
+    margin-top: 5px;
+  }
+
+  &-text {
+    display: block;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 23px;
+    text-align: center;
+    color: #637786;
+    margin-top: 15px;
+  }
+}
