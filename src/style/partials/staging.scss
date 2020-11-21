@@ -1,0 +1,136 @@
+.stagingScheme {
+  box-sizing: border-box;
+  width: 980px;
+  padding: 19px 19px 55px;
+  background-color: #fff;
+  overflow: hidden;
+
+  &-wrap {
+    width: 100%;
+    max-width: 980px;
+    margin: 0 auto;
+    overflow-x: auto;
+  }
+
+  &-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    margin-bottom: 87px;
+
+    .TableArch-item {
+      height: 76px;
+      width: 285px;
+
+      &:nth-child(1) {
+        width: 354px;
+      }
+    }
+  }
+
+  &-row {
+    position: relative;
+    box-sizing: border-box;
+    padding: 0 51px 90px 18px;
+    margin-bottom: 56px;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+
+    &:before {
+      content: '';
+      position: absolute;
+      left: 0;
+      bottom: -7px;
+      display: block;
+      height: 7px;
+      width: 100%;
+      background: #eff4f6;
+    }
+  }
+
+  &-imgWrap {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+    height: 257px;
+  }
+
+  &-img {
+    position: absolute;
+    width: 212px;
+  }
+
+  &-title {
+    display: block;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+    color: #000000;
+  }
+
+  &-desc {
+    display: block;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #637786;
+  }
+
+  &-text {
+    margin-top: 50px;
+  }
+
+  &-catalog {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 726px;
+    padding-left: 15px;
+    margin: 0 auto;
+
+    &-item {
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+
+      &:nth-child(1) {
+        .stagingScheme-catalog-text {
+          width: 154px;
+        }
+      }
+
+      &:nth-child(2) {
+        .stagingScheme-catalog-text {
+          width: 180px;
+        }
+      }
+
+      &:nth-child(3) {
+        .stagingScheme-catalog-text {
+          width: 152px;
+        }
+      }
+    }
+
+    &-icon {
+      display: block;
+      width: 8px;
+      margin-top: 10px;
+      margin-right: 14px;
+    }
+
+    &-text {
+      display: block;
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 23px;
+      color: #555555;
+    }
+  }
+}
