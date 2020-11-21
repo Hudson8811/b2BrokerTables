@@ -259,3 +259,31 @@
     width: auto;
   }
 }
+
+.riskSchem-wl4-wrap {
+  .riskSchem-col:nth-child(2) .riskSchem-items-wrap {
+    margin-top: 133px;
+  }
+
+  .riskSchem-col:nth-child(1) .TableArch-item {
+    margin-top: 290px;
+  }
+
+  .riskSchem-col:nth-child(3) .TableArch-item {
+    margin-bottom: 151px;
+  }
+
+  .riskSchem-col:nth-child(4) .TableArch-item {
+    margin-bottom: 133px;
+  }
+
+  .riskSchem-col:nth-child(4) {
+    padding-bottom: 83px;
+  }
+}
+
+.riskSchem-wl4-wrap-second {
+  .riskSchem-col:nth-child(3) .settelmentScheme-block {
+    height: 206px;
+  }
+}
