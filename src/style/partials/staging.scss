@@ -134,3 +134,30 @@
     }
   }
 }
+
+.stagingSchemeCore-wrap {
+  .TableArch-item {
+    background: #eff4f6;
+
+    &:nth-child(1) {
+      width: 362px;
+    }
+
+    &:nth-child(2) {
+      width: 280px;
+    }
+
+    &:nth-child(3) {
+      width: 288px;
+    }
+
+    &:before,
+    &:after {
+      display: none;
+    }
+  }
+
+  .stagingScheme-row {
+    padding: 0 57px 90px 20px;
+  }
+}
