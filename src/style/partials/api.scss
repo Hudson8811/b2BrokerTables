@@ -1,0 +1,115 @@
+.apiScheme {
+  width: 980px;
+  box-sizing: border-box;
+  padding: 15px;
+
+  &-wrap {
+    width: 100%;
+    max-width: 980px;
+    margin: 0 auto;
+    overflow-x: auto;
+  }
+
+  &-heading {
+    position: relative;
+    display: flex;
+    margin-bottom: 110px;
+    justify-content: center;
+    align-items: center;
+    background: #2e3740;
+    width: 100%;
+    height: 86px;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    text-transform: capitalize;
+    color: #ffffff;
+  }
+
+  &-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    box-sizing: border-box;
+    padding: 0 32px;
+
+    .TableArch-item {
+      margin: 0 auto 78px;
+      width: 210px;
+      height: 76px;
+
+      span {
+        color: #fff;
+      }
+
+      &:after {
+        background: #1f2832;
+      }
+    }
+  }
+
+  &-item {
+    position: relative;
+    box-sizing: border-box;
+    min-height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 10px 35px;
+    background: #2e3740;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #eff4f6;
+    text-align: center;
+
+    &:nth-child(1) {
+      min-height: 78px;
+      font-weight: 500;
+      font-size: 16px;
+      margin-bottom: 14px;
+    }
+
+    & + & {
+      margin-top: 10px;
+    }
+  }
+
+  &-subRow {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    width: 100%;
+  }
+
+  &-subCol {
+    width: 190px;
+
+    &:nth-child(1) {
+      margin-right: 20px;
+    }
+  }
+
+  &-svg1 {
+    position: absolute;
+    top: calc(100% + 20px);
+  }
+
+  &-svg2 {
+    position: absolute;
+    top: calc(100% + 9px);
+  }
+
+  &-svg3 {
+    position: absolute;
+    top: 38px;
+    right: 100%;
+  }
+
+  &-svg4 {
+    position: absolute;
+    top: 38px;
+    left: 100%;
+  }
+}
