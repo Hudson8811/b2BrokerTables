@@ -1,0 +1,41 @@
+.accountsMargin-wrap {
+  max-width: 980px;
+
+  .accountswl {
+    display: block;
+    width: 980px;
+    box-sizing: border-box;
+    padding: 0 64px 40px;
+  }
+
+  .accountswl-col + .accountswl-col {
+    margin-top: 45px;
+  }
+
+  .accountswl-col {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    opacity: 1;
+  }
+
+  .TableArch-item {
+    width: 235px;
+    height: 58px;
+    margin: 0;
+  }
+
+  .enWork-item-price {
+    width: 120px;
+    height: 58px;
+  }
+
+  .enWork-item-price + .enWork-item-price {
+    margin-top: 0;
+  }
+
+  .accountswl-text {
+    margin-top: 0;
+  }
+}
