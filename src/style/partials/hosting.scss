@@ -1,0 +1,239 @@
+.hostingScheme {
+  width: 980px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+
+  &-wrap {
+    width: 100%;
+    max-width: 980px;
+    margin: 0 auto;
+    overflow-x: auto;
+  }
+
+  &-item {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 210px;
+    height: 76px;
+    background: #ffffff;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+
+    & + & {
+      margin-top: 10px;
+    }
+  }
+
+  &-col {
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.4);
+
+    .TableArch-item {
+      width: 210px;
+      height: 76px;
+      margin-bottom: 50px;
+    }
+
+    &:nth-child(2n - 1) {
+      background: #eff4f6;
+    }
+
+    &:nth-child(1) {
+      padding: 48px 42px 43px 84px;
+      width: 336px;
+    }
+
+    &:nth-child(2) {
+      padding: 48px 52px 43px 48px;
+      width: 319px;
+
+      .TableArch-item {
+        margin-left: 0;
+
+        &:nth-child(4) {
+          margin-bottom: 10px;
+        }
+      }
+
+      .hostingScheme-info-item {
+        margin-left: 39px;
+      }
+    }
+
+    &:nth-child(3) {
+      width: 325px;
+      padding: 48px 78px 43px 31px;
+
+      .TableArch-item {
+        margin-left: 0;
+      }
+
+      .hostingScheme-info-item {
+        margin-left: auto;
+      }
+
+      .hostingScheme-item {
+        margin-left: auto;
+        &:nth-child(2) {
+          margin-bottom: 15px;
+        }
+
+        &:nth-last-child(3) {
+          margin-top: 88px;
+        }
+      }
+
+      .hostingScheme-info-item + .hostingScheme-info-item {
+        margin-top: 9px;
+      }
+    }
+  }
+
+  &-info {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    & + & {
+      margin-top: 6px;
+    }
+
+    &-core {
+      position: relative;
+      display: flex;
+      box-sizing: border-box;
+      justify-content: center;
+      align-items: center;
+      width: 91px;
+      height: 80px;
+      background: #ffffff;
+      border: 2px solid #eff4f6;
+      border-radius: 4px;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 19px;
+      color: #000000;
+    }
+
+    &-text {
+      display: block;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 23px;
+      margin-left: 7px;
+      color: #79838b;
+    }
+
+    &-svg1 {
+      display: block;
+      margin: 6px auto;
+    }
+
+    &-svg2 {
+      position: absolute;
+      z-index: 2;
+      top: 60px;
+    }
+
+    &-svg3 {
+      position: absolute;
+      top: calc(100% + 3px);
+    }
+
+    &-svg4 {
+      display: block;
+      margin: 19px auto;
+    }
+
+    &-svg5 {
+      position: absolute;
+      top: 100%;
+      left: 15px;
+    }
+
+    &-svg6 {
+      position: absolute;
+      right: calc(100% - 5px);
+      top: 46px;
+    }
+
+    &-svg7 {
+      position: absolute;
+      top: 38px;
+      left: calc(100% + 6px);
+    }
+
+    &-svg8 {
+      position: absolute;
+      left: calc(100% + 11px);
+      top: 41px;
+    }
+
+    &-svg9 {
+      position: absolute;
+      z-index: 6;
+      right: 209px;
+      top: 41px;
+    }
+
+    &-svg10 {
+      position: absolute;
+      left: 15px;
+      top: 100%;
+    }
+
+    &-svg11 {
+      position: absolute;
+      left: 100%;
+      top: -83px;
+    }
+
+    &-item {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 40px;
+      width: 171px;
+      background-color: #fff;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 19px;
+      color: #637786;
+
+      & + & {
+        margin-top: 10px;
+      }
+    }
+
+    &-wrap {
+      box-sizing: border-box;
+      border: 4px solid #03e2b2;
+      border-radius: 4px;
+      padding: 6px;
+
+      &-block {
+        box-sizing: border-box;
+        width: 218px;
+        padding: 7px;
+        border: 2px solid #03e2b2;
+        border-radius: 4px;
+      }
+    }
+  }
+
+  &-desc {
+    width: 120px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    margin: 13px auto 0;
+    color: #637786;
+  }
+}
