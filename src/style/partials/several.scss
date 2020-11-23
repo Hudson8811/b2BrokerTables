@@ -298,7 +298,7 @@
       .several-maamos-item {
         .several-maamos-title {
           color: #fff;
-          background: linear-gradient(90deg, #00e8b6 1.59%, #01bd95 93.04%);
+          background: linear-gradient(90deg, #33ebc4 1.59%, #34cbab 93.04%);
         }
 
         .several-maamos-desc {
@@ -323,31 +323,19 @@
 
     &--blueGr {
       .several-maamos-desc {
-        background: linear-gradient(
-          90deg,
-          rgba(66, 163, 253, 0.8) 1.59%,
-          rgba(2, 114, 217, 0.8) 93.04%
-        );
+        background: linear-gradient(90deg, #65b3fb 1.59%, #3b93e4 93.04%);
       }
     }
 
     &--orange {
       .several-maamos-desc {
-        background: linear-gradient(
-          90deg,
-          rgba(238, 115, 1, 0.8) 1.59%,
-          rgba(253, 66, 100, 0.8) 93.04%
-        );
+        background: linear-gradient(90deg, #f38b3c 1.59%, #fd6981 93.04%);
       }
     }
 
     &--green {
       .several-maamos-desc {
-        background: linear-gradient(
-          90deg,
-          rgba(1, 189, 149, 0.8) 1.59%,
-          rgba(0, 232, 182, 0.8) 97.53%
-        );
+        background: linear-gradient(90deg, #34cbab 1.59%, #33ebc4 97.53%);
       }
     }
   }

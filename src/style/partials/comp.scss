@@ -85,5 +85,10 @@
     &:nth-child(5) {
       width: 288px;
     }
+
+    &:nth-child(3),
+    &:nth-child(5) {
+      background: #f8fafa;
+    }
   }
 }

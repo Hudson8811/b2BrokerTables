@@ -8,6 +8,9 @@
     position: absolute;
     top: 41px;
     left: calc(100% - 109px);
+    display: block;
+    width: 163px;
+    height: 2px;
   }
 
   &-wrap {
@@ -104,10 +107,9 @@
     &:nth-child(3) {
       .connectiv-item {
         font-weight: 500;
-        font-size: 14px;
+        font-size: 12px;
         line-height: 19px;
         color: #000000;
-        letter-spacing: -0.01em;
         padding-left: 0;
         padding-right: 0;
 
@@ -192,6 +194,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        padding-left: 32px;
 
         &:after {
           content: '';

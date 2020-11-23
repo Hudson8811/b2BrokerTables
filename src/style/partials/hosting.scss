@@ -44,16 +44,29 @@
     }
 
     &:nth-child(1) {
-      padding: 48px 42px 43px 84px;
+      padding: 45px 42px 43px 84px;
       width: 336px;
+
+      .TableArch-item {
+        &:nth-child(1) {
+          margin-bottom: 202px;
+        }
+      }
     }
 
     &:nth-child(2) {
-      padding: 48px 52px 43px 48px;
+      padding: 45px 52px 43px 48px;
       width: 319px;
 
       .TableArch-item {
         margin-left: 0;
+
+        &:nth-child(1) {
+          span {
+            font-size: 21px;
+          }
+          margin-bottom: 202px;
+        }
 
         &:nth-child(4) {
           margin-bottom: 10px;
@@ -67,23 +80,47 @@
 
     &:nth-child(3) {
       width: 325px;
-      padding: 48px 78px 43px 31px;
+      padding: 45px 78px 43px 31px;
 
       .TableArch-item {
-        margin-left: 0;
+        margin-left: auto;
+        margin-right: 0;
+
+        &:nth-child(1) {
+          margin-bottom: 11px;
+
+          &:before {
+            background-color: #b0c4d4;
+          }
+
+          span {
+            font-size: 21px;
+          }
+        }
+
+        &:nth-child(2) {
+          span {
+            font-size: 21px;
+          }
+        }
       }
 
       .hostingScheme-info-item {
         margin-left: auto;
+
+        &:nth-child(4) {
+          margin-bottom: 51px;
+        }
       }
 
       .hostingScheme-item {
         margin-left: auto;
-        &:nth-child(2) {
+
+        &:nth-child(6) {
           margin-bottom: 15px;
         }
 
-        &:nth-last-child(3) {
+        &:nth-child(14) {
           margin-top: 88px;
         }
       }
@@ -142,7 +179,7 @@
 
     &-svg3 {
       position: absolute;
-      top: calc(100% + 3px);
+      top: calc(100% + 12px);
     }
 
     &-svg4 {
@@ -165,20 +202,18 @@
     &-svg7 {
       position: absolute;
       top: 38px;
-      left: calc(100% + 6px);
+      left: 100%;
     }
 
     &-svg8 {
       position: absolute;
-      left: calc(100% + 11px);
-      top: 41px;
+      left: calc(100% + 12px);
     }
 
     &-svg9 {
       position: absolute;
       z-index: 6;
-      right: 209px;
-      top: 41px;
+      right: calc(100% + 12px);
     }
 
     &-svg10 {
@@ -235,5 +270,87 @@
     text-align: center;
     margin: 13px auto 0;
     color: #637786;
+  }
+
+  &-transition {
+    position: relative;
+    z-index: 5;
+    margin-right: 4px;
+
+    &-svg1 {
+      position: absolute;
+      display: block;
+      top: 100%;
+    }
+  }
+
+  &-topRow {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 45px 84px 34px;
+    background-color: #eff4f6;
+  }
+
+  &-topCol {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 115px;
+    height: 107px;
+    background: #ffffff;
+    border-radius: 5px;
+
+    span {
+      display: block;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 19px;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+      width: 103px;
+      height: 35px;
+      margin: 10px auto 0;
+    }
+
+    &:nth-child(1),
+    &:nth-child(2) {
+      .hostingScheme-dop-icon-svg {
+        left: 50px;
+      }
+    }
+
+    &:nth-child(4) {
+      .hostingScheme-dop-icon-svg {
+        top: 100%;
+        right: 50px;
+      }
+    }
+
+    &:nth-child(5) {
+      .hostingScheme-dop-icon-svg {
+        right: 50px;
+      }
+    }
+  }
+
+  &-dop-icon {
+    display: block;
+
+    &-svg {
+      position: absolute;
+      display: block;
+      top: calc(100% + 10px);
+    }
+  }
+
+  &-info-dop-svg {
+    position: absolute;
+    left: calc(100% + 20px);
   }
 }

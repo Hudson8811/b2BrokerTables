@@ -19,7 +19,7 @@
 
       .several-maamos-title {
         height: 57px;
-        color: #000000;
+        color: #555;
       }
       .several-maamos-desc {
         height: 25px;
@@ -28,12 +28,8 @@
       &:nth-child(1) {
         margin: 0 auto;
         .several-maamos-title {
-          background: linear-gradient(
-            90deg,
-            rgba(0, 232, 182, 0.8) 1.59%,
-            rgba(1, 189, 149, 0.8) 93.04%
-          );
-          color: #fff;
+          background: linear-gradient(90deg, #33ebc4 1.59%, #34cbab 93.04%);
+          color: #555;
         }
 
         .several-maamos-desc {
@@ -72,6 +68,31 @@
 
       &:nth-child(3) {
         top: 353px;
+      }
+    }
+
+    p {
+      position: absolute;
+      display: block;
+      margin: 0;
+      width: 32px;
+      font-weight: 500;
+      font-size: 11px;
+      line-height: 13px;
+      color: #555555;
+      left: 31px;
+      text-align: center;
+
+      &:nth-child(4) {
+        top: 104px;
+      }
+
+      &:nth-child(5) {
+        top: 218px;
+      }
+
+      &:nth-child(6) {
+        top: 332px;
       }
     }
   }

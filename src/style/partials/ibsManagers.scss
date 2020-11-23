@@ -50,27 +50,15 @@
       border-radius: 0 0 4px 4px;
 
       &-green {
-        background: linear-gradient(
-          90deg,
-          rgba(1, 189, 149, 0.8) 1.59%,
-          rgba(0, 232, 182, 0.8) 93.04%
-        );
+        background: linear-gradient(90deg, #34cbab 1.59%, #33ebc4 93.04%);
       }
 
       &-blue {
-        background: linear-gradient(
-          90deg,
-          rgba(0, 163, 255, 0.8) 1.59%,
-          rgba(0, 218, 232, 0.8) 93.04%
-        );
+        background: linear-gradient(90deg, #31b4fe 1.59%, #31deec 93.04%);
       }
 
       &-darkblue {
-        background: linear-gradient(
-          90deg,
-          rgba(66, 163, 253, 0.8) 1.59%,
-          rgba(2, 114, 217, 0.8) 93.04%
-        );
+        background: linear-gradient(90deg, #358ee1 1.59%, #66b4fc 93.04%);
       }
     }
 
@@ -220,12 +208,36 @@
     position: absolute;
     bottom: 14px;
     right: calc(100% + 16px);
+
+    span {
+      display: block;
+      width: 58px;
+      margin-left: 20px;
+      margin-bottom: -17px;
+      font-weight: normal;
+      font-size: 20px;
+      line-height: 23px;
+      text-align: center;
+      color: #aabdcc;
+    }
   }
 
   &-svg5 {
     position: absolute;
     top: 2px;
     right: calc(100% + 16px);
+
+    span {
+      display: block;
+      width: 58px;
+      margin-left: 20px;
+      margin-bottom: -17px;
+      font-weight: normal;
+      font-size: 20px;
+      line-height: 23px;
+      text-align: center;
+      color: #aabdcc;
+    }
   }
 
   &-svg6 {
@@ -238,6 +250,18 @@
     position: absolute;
     bottom: 41px;
     right: calc(100% + 16px);
+
+    span {
+      display: block;
+      width: 58px;
+      margin-left: 20px;
+      margin-bottom: -17px;
+      font-weight: normal;
+      font-size: 20px;
+      line-height: 23px;
+      text-align: center;
+      color: #aabdcc;
+    }
   }
 
   &-svg8 {
