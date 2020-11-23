@@ -1,4 +1,4 @@
-.amawtfrc {
+.automanagers {
   position: relative;
   box-sizing: border-box;
   width: 540px;
@@ -36,7 +36,7 @@
         background-color: #fff;
       }
 
-      .amawtfrc-users:nth-child(2) {
+      .automanagers-users:nth-child(2) {
         position: relative;
         width: 187px;
         height: 133px;
@@ -52,7 +52,7 @@
           background: #eff4f6;
         }
 
-        .amawtfrc-users-bot {
+        .automanagers-users-bot {
           position: relative;
           box-sizing: border-box;
           padding: 0 30px;
@@ -196,11 +196,11 @@
   }
 
   &-reverse {
-    .amawtfrc-row:nth-child(2) {
+    .automanagers-row:nth-child(2) {
       border-bottom: none;
     }
 
-    .amawtfrc-row:nth-child(3) {
+    .automanagers-row:nth-child(3) {
       padding-bottom: 30px;
 
       &:before {
@@ -214,7 +214,7 @@
         background-color: #fff;
       }
 
-      .amawtfrc-users:nth-child(2) {
+      .automanagers-users:nth-child(2) {
         position: relative;
         z-index: 2;
         background: #eff4f6;
