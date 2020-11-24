@@ -2,6 +2,7 @@
   width: 980px;
   box-sizing: border-box;
   padding-top: 4px;
+  font-family: 'Roboto Condensed', sans-serif;
 
   &-wrap {
     width: 100%;
@@ -135,7 +136,7 @@
   &-item {
     min-height: 21px;
     box-sizing: border-box;
-    padding: 0 10px;
+    padding: 3px 10px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -325,6 +326,7 @@
     span {
       &:nth-child(1) {
         margin-right: 46px;
+        font-weight: 400;
       }
       &:nth-child(3) {
         margin-left: 77px;
