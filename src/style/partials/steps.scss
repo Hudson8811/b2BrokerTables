@@ -14,7 +14,7 @@
   &-row {
     position: relative;
     box-sizing: border-box;
-    padding: 0 22px 0 9px;
+    padding: 0 19px 0 9px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -32,7 +32,7 @@
 
         &:nth-child(2) {
           position: absolute;
-          right: 22px;
+          right: 19px;
           top: 0;
           z-index: 1;
           justify-content: flex-end;
@@ -40,7 +40,7 @@
           padding: 0 15px;
           font-style: italic;
           font-weight: bold;
-          font-size: 12px;
+          font-size: 10px;
           line-height: 13px;
           color: #ffffff;
 
@@ -240,10 +240,13 @@
     &-svg {
       position: absolute;
       bottom: 100%;
-      left: 50%;
+      left: 49%;
       display: block;
-      margin-left: -1px;
       margin-bottom: 18px;
+
+      &-slick {
+        margin-bottom: 204px;
+      }
     }
   }
 }
@@ -289,7 +292,7 @@
   }
 
   .steps-row:nth-child(1) .steps-item:nth-child(2) {
-    right: 22px;
+    right: 19px;
     width: calc(100% - 31px);
     height: 21px;
 
@@ -304,7 +307,7 @@
 
   .steps-row:nth-child(2) .steps-item:nth-child(2) {
     position: absolute;
-    right: 22px;
+    right: 19px;
     top: 0;
     z-index: 1;
     justify-content: flex-end;
@@ -336,7 +339,7 @@
   }
 
   .steps-row {
-    padding: 0 22px 0 9px;
+    padding: 0 19px 0 9px;
     &:nth-child(3) {
       .steps-item {
         &:nth-child(1) {
