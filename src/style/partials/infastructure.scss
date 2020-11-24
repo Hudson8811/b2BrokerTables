@@ -16,7 +16,11 @@
     line-height: 25px;
     text-transform: capitalize;
     color: #ffffff;
-    background: linear-gradient(90deg, rgba(0, 222, 175, 0.8) 1.59%, rgba(1, 189, 149, 0.8) 93.04%);
+    background: linear-gradient(
+      90deg,
+      rgba(0, 222, 175, 0.8) 50.59%,
+      rgba(1, 189, 149, 0.8) 93.04%
+    );
   }
 
   &-topRow {
@@ -292,7 +296,7 @@
           &:before {
             background: linear-gradient(
               90deg,
-              rgba(0, 232, 182, 0.8) 1.59%,
+              rgba(0, 232, 182, 0.8) 50.59%,
               rgba(1, 189, 149, 0.8) 93.04%
             );
           }
