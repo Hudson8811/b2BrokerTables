@@ -242,6 +242,9 @@
       bottom: 100%;
       left: 49%;
       display: block;
+      width: 1px;
+      height: auto;
+      object-fit: cover;
       margin-bottom: 18px;
 
       &-slick {
