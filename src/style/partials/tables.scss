@@ -457,7 +457,7 @@ body {
   &-row3-svg {
     position: absolute;
     top: 12px;
-    left: 100%;
+    left: 168px;
     display: block;
     z-index: 2;
     margin-left: -15px;
@@ -466,7 +466,7 @@ body {
   &-row4-svg {
     position: absolute;
     top: -56%;
-    left: 100%;
+    left: 171px;
     display: block;
     margin-left: -15px;
   }
@@ -599,7 +599,7 @@ body {
     .StableCoins-step4-svg2-active {
       position: absolute;
       z-index: 2;
-      left: 148px;
+      left: 149px;
       top: -3px;
       display: block;
     }
@@ -619,6 +619,7 @@ body {
 
 .StableCoins-row:nth-child(3) .StableCoins-mark--gray.StableCoins-mark--active:last-child svg {
   top: -83%;
+  left: 168px;
 }
 
 .StableCoins-row:nth-child(3)
@@ -976,5 +977,17 @@ body {
   &-horizontal-arrow {
     display: block;
     margin: 0 16px;
+  }
+}
+
+.StableCoins-row:nth-child(3) .StableCoins-mark--big.StableCoins-mark--active {
+  .StableCoins-row3-svg.StableCoins-disabled-arrow {
+    left: 164px;
+  }
+}
+
+.StableCoins-mark.StableCoins-mark--big.StableCoins-mark--gray.StableCoins-mark--active {
+  .StableCoins-row4-svg.StableCoins-disabled-arrow {
+    left: 168px;
   }
 }
